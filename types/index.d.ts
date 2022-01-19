@@ -140,6 +140,7 @@ export interface FormGeneratorProps {
   form_method: string;
   action_name?: string;
   onSubmit?: (info: FormGeneratorOnSubmitParams[]) => void;
+  onChange?: (info: FormGeneratorOnSubmitParams[]) => void;
   data: any[];
   back_action?: string;
   back_name?: string;
